@@ -1,5 +1,5 @@
 # OneLineGameEnv
-a simple environment for RL experiment
+a simple environment for RL experiment (build on python3)
     
     
     from env.one_line_game import OneLineGameEnv
