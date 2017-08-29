@@ -4,7 +4,7 @@ a simple environment for RL experiment (build on python3)
     
     from env.one_line_game import OneLineGameEnv
 
-    env = OneLineGameEnv()
+    env = OneLineGameEnv() 
 
     env.start()
 
@@ -22,11 +22,11 @@ a simple environment for RL experiment (build on python3)
         4 :   'flag'
     '''
 
-## states:
+## states
 * state[:, :, 0]: OneLineGame map, it would not be changed until `env.reset()`.
 * state[:, :, 1]: walking map, `env.step()` walk on this map.
 
-## others:
+## others
 * this version doesn't use 'gym-environment'
 * more detail of environment: [view_env.ipynb](https://github.com/thisray/OneLineGameEnv/blob/master/view_env.ipynb)
 
