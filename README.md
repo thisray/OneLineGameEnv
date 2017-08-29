@@ -28,8 +28,9 @@ a simple environment for RL experiment
     state[0]: OneLineGame map, it would not be changed until `env.reset()`.
 
     state[1]: walk map, `env.step()` walk on this map.
-
-
+    
+    
+    
 * this version doesn't use 'gym-environment'
 
 * more detail of environment: [view_env.ipynb](https://github.com/thisray/OneLineGameEnv/blob/master/view_env.ipynb)
